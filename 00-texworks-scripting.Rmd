@@ -19,3 +19,4 @@ Process to host this document on github
   * Modified the file `_output.yml` by setting the path to the hosting github repository `+    edit: https://github.com/henrikmidtiby/bookdown-testing/edit/master/%s`
   * Modified the `_deploy.sh` script to check for the `main` branch instead of the `master` branch
 * It actually works now!
+* This is a change made in the github online editor
