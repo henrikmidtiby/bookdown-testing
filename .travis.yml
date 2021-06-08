@@ -1,6 +1,7 @@
 language: r
 cache: packages
 pandoc_version: 2.9.2.1
+latex: false
 
 addons:
   apt:
