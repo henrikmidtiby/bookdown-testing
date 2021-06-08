@@ -9,5 +9,11 @@ Process to host this document on github
 * Following chapter 6.2 Github in [https://bookdown.org/yihui/bookdown/github.html] for hosting on github
 ** `touch .nojekyll`
 ** Generated a github personal access token
+** Create the github repository [https://github.com/henrikmidtiby/bookdown-testing] 
+** Commit changes to git and push to the git hub repository [https://github.com/henrikmidtiby/bookdown-testing]
 ** Signed in on tracis-ci.com using github
 ** Activated the `bookdown-testing` repository on travis-ci.com by clicking on the button `Activate all repositories using gihub apps`, after clicking I could select a single repository
+** Set up deployment to github pages [https://docs.travis-ci.com/user/deployment/pages/]
+* Manual running the build and deploy script locally.
+** [https://henrikmidtiby.github.io/bookdown-testing/]
+** Modified the file `_output.yml` by setting the path to the hosting github repository `+    edit: https://github.com/henrikmidtiby/bookdown-testing/edit/master/%s`
