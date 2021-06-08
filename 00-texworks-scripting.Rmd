@@ -17,3 +17,4 @@ Process to host this document on github
 * Manual running the build and deploy script locally.
   * [https://henrikmidtiby.github.io/bookdown-testing/]
   * Modified the file `_output.yml` by setting the path to the hosting github repository `+    edit: https://github.com/henrikmidtiby/bookdown-testing/edit/master/%s`
+* It actually works now!
