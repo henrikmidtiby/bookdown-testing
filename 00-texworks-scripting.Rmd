@@ -1,0 +1,11 @@
+# Scripting in Texworks {#texworksscripting}
+
+Process to host this document on github
+
+* Download and unpack [https://github.com/rstudio/bookdown-demo/archive/master.zip]
+* Open the project file in RStudio
+* Add a new textfile named `00-texworks-scripting.Rmd` in the project.
+* Open the `index.Rmd` file and knit it to gitbook
+* Following chapter 6.2 Github in [https://bookdown.org/yihui/bookdown/github.html] for hosting on github
+** `touch .nojekyll`
+
