@@ -8,4 +8,6 @@ Process to host this document on github
 * Open the `index.Rmd` file and knit it to gitbook
 * Following chapter 6.2 Github in [https://bookdown.org/yihui/bookdown/github.html] for hosting on github
 ** `touch .nojekyll`
-
+** Generated a github personal access token
+** Signed in on tracis-ci.com using github
+** Activated the `bookdown-testing` repository on travis-ci.com by clicking on the button `Activate all repositories using gihub apps`, after clicking I could select a single repository
