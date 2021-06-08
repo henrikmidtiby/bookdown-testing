@@ -191,6 +191,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <ul>
 <li>[<a href="https://henrikmidtiby.github.io/bookdown-testing/" class="uri">https://henrikmidtiby.github.io/bookdown-testing/</a>]</li>
 <li>Modified the file <code>_output.yml</code> by setting the path to the hosting github repository `+ edit: <a href="https://github.com/henrikmidtiby/bookdown-testing/edit/master/%s" class="uri">https://github.com/henrikmidtiby/bookdown-testing/edit/master/%s</a>`</li>
+<li>Modified the <code>_deploy.sh</code> script to check for the <code>main</code> branch instead of the <code>master</code> branch</li>
 </ul></li>
 <li>It actually works now!</li>
 </ul>
@@ -234,7 +235,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/henrikmidtiby/bookdown-testing/edit/master/00-texworks-scripting.Rmd",
+"link": "https://github.com/henrikmidtiby/bookdown-testing/edit/main/00-texworks-scripting.Rmd",
 "text": "Edit"
 },
 "history": {
